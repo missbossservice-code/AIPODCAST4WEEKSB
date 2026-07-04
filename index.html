@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<template id="__bundler_thumbnail" data-bg-color="#8B1A3C">
+  <svg viewBox="0 0 120 80" xmlns="http://www.w3.org/2000/svg">
+    <rect width="120" height="80" fill="#8B1A3C"/>
+    <circle cx="60" cy="40" r="22" fill="none" stroke="#D4A84B" stroke-width="1.5"/>
+    <rect x="55" y="28" width="10" height="18" rx="5" fill="#F2D0C8"/>
+    <rect x="58" y="46" width="4" height="8" fill="#F2D0C8"/>
+  </svg>
+</template>
+
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500;700;900&family=Noto+Sans+TC:wght@300;400;500;700&display=swap">
+  <style>
+    body { margin:0; scroll-behavior:smooth; }
+  </style>
+</helmet>
+
+<div data-screen-label="AI-Podcast 四週陪跑實戰營" style="background:#FDF6F4; color:#2C1820; font-family:'Noto Sans TC',sans-serif; overflow-x:hidden;">
+
+  <!-- ══ HERO ══ -->
+  <section style="position:relative; min-height:100vh; display:flex; align-items:center; overflow:hidden;">
+    <div style="position:absolute; inset:0; background-image:url('img_000.jpg'); background-size:cover; background-position:center top; z-index:0;"></div>
+    <div style="position:absolute; inset:0; background:linear-gradient(135deg,rgba(232,184,176,0.55) 0%,rgba(200,168,192,0.35) 40%,rgba(184,168,208,0.25) 70%,rgba(139,26,60,0.15) 100%); z-index:1;"></div>
+    <div style="position:absolute; inset:24px; border:1px solid rgba(212,168,75,0.35); border-radius:4px; z-index:2; pointer-events:none;"></div>
+    <div style="position:relative; z-index:3; max-width:1100px; margin:0 auto; padding:80px 40px; display:flex; flex-wrap:wrap; gap:60px; align-items:center; width:100%; box-sizing:border-box;">
+      <div style="flex:1 1 460px; min-width:300px;">
+        <span style="font-family:'Noto Serif TC',serif; font-size:12px; letter-spacing:0.28em; color:#8B1A3C; background:rgba(212,168,75,0.18); display:inline-block; padding:5px 16px; border-radius:20px; border:1px solid rgba(212,168,75,0.4); margin-bottom:22px;">✦ MissBoss・假日班週六 ✦</span>
+        <h1 style="font-family:'Noto Serif TC',serif; font-size:clamp(32px,5vw,52px); font-weight:900; line-height:1.2; color:#8B1A3C; margin:0 0 10px; text-shadow:0 2px 12px rgba(232,184,176,0.6);">AI-Podcast<br>四週陪跑實戰營</h1>
+        <p style="font-family:'Noto Serif TC',serif; font-size:clamp(16px,2.5vw,22px); color:#5C3848; margin:0 0 28px; line-height:1.5;">一支手機，四個週六<br>從零開始打造聲音個人品牌</p>
+        <div style="width:80px; height:2px; background:linear-gradient(90deg,#D4A84B,transparent); margin-bottom:28px;"></div>
+        <p style="font-size:15px; color:#5C3848; line-height:1.9; margin:0 0 36px;">你有滿腹的專業知識與人生故事<br>卻因為「不會技術、沒有設備、沒有時間」<br>讓這一切永遠鎖在筆記本裡？<br><br>現在，讓 AI 幫妳——是時候讓世界聽見妳的聲音。</p>
+        <div style="display:flex; gap:28px; margin-bottom:36px; flex-wrap:wrap;">
+          <div style="text-align:center;"><div style="font-family:'Noto Serif TC',serif; font-size:28px; font-weight:900; color:#8B1A3C; line-height:1;">4</div><div style="font-size:11px; color:#5C3848; margin-top:3px;">週全程陪跑</div></div>
+          <div style="text-align:center;"><div style="font-family:'Noto Serif TC',serif; font-size:28px; font-weight:900; color:#8B1A3C; line-height:1;">0</div><div style="font-size:11px; color:#5C3848; margin-top:3px;">設備需求</div></div>
+          <div style="text-align:center;"><div style="font-family:'Noto Serif TC',serif; font-size:28px; font-weight:900; color:#8B1A3C; line-height:1;">150+</div><div style="font-size:11px; color:#5C3848; margin-top:3px;">集數實戰經驗</div></div>
+        </div>
+        <div style="display:flex; flex-direction:column; gap:12px; max-width:320px;">
+          <a href="#register-form" style="display:block; background:#8B1A3C; color:white; font-family:'Noto Sans TC',sans-serif; font-size:15px; font-weight:700; letter-spacing:0.08em; padding:15px 28px; border-radius:50px; text-decoration:none; text-align:center; box-shadow:0 6px 24px rgba(139,26,60,0.3);" style-hover="background:#6B1230; transform:translateY(-2px);">立即報名・早鳥 NT$4,980 →</a>
+          <a href="#pricing" style="display:block; background:rgba(255,255,255,0.7); color:#8B1A3C; font-family:'Noto Sans TC',sans-serif; font-size:14px; font-weight:600; padding:13px 28px; border-radius:50px; border:1.5px solid #8B1A3C; text-decoration:none; text-align:center; backdrop-filter:blur(8px);">了解課程詳情 ↓</a>
+        </div>
+      </div>
+      <div style="flex:0 0 380px; min-width:260px; position:relative; display:flex; justify-content:center;">
+        <div style="position:absolute; width:380px; height:380px; border-radius:50%; background:radial-gradient(circle,rgba(212,168,75,0.15) 0%,rgba(232,184,176,0.1) 60%,transparent 100%); top:50%; left:50%; transform:translate(-50%,-50%);"></div>
+        <div style="position:absolute; width:400px; height:400px; border-radius:50%; border:1px solid rgba(212,168,75,0.3); top:50%; left:50%; transform:translate(-50%,-50%);"></div>
+        <img src="img_001.jpg" alt="芳棠 JEAN" style="width:280px; height:280px; max-width:100%; border-radius:50%; object-fit:cover; object-position:center top; border:4px solid rgba(212,168,75,0.5); box-shadow:0 20px 60px rgba(139,26,60,0.2),0 0 0 8px rgba(232,184,176,0.3); position:relative; z-index:2;">
+        <div style="position:absolute; bottom:10px; left:50%; transform:translateX(-50%); background:linear-gradient(135deg,#8B1A3C,#6B1230); color:white; font-family:'Noto Serif TC',serif; font-size:13px; font-weight:700; padding:8px 24px; border-radius:30px; white-space:nowrap; z-index:3; box-shadow:0 4px 16px rgba(139,26,60,0.35);">✦ 芳棠 JEAN｜MissBoss 創辦人</div>
+        <span style="position:absolute; top:8%; right:5%; color:#D4A84B; font-size:20px; z-index:4;">✦</span>
+        <span style="position:absolute; top:30%; right:-4%; color:#D4A84B; font-size:20px; z-index:4;">✧</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ 痛點 ══ -->
+  <section style="background:linear-gradient(160deg,#F9EEF0,#F0E8F5,#EAE8F8); padding:80px 24px;">
+    <div style="max-width:920px; margin:0 auto;">
+      <p style="font-family:'Noto Sans TC',sans-serif; font-size:11px; letter-spacing:0.25em; color:#D4A84B; text-align:center; margin:0 0 12px; text-transform:uppercase;">你是不是也有這些困擾</p>
+      <h2 style="font-family:'Noto Serif TC',serif; font-size:clamp(24px,4vw,34px); font-weight:700; color:#8B1A3C; text-align:center; margin:0 0 48px; line-height:1.35;">三個關卡，讓妳的聲音<br>永遠停在心裡</h2>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px,1fr)); gap:20px;">
+        <div style="background:rgba(255,255,255,0.7); backdrop-filter:blur(8px); border:1px solid rgba(212,168,75,0.2); border-radius:16px; padding:28px 24px; text-align:center;">
+          <span style="font-size:36px; margin-bottom:16px; display:block;">⚙️</span>
+          <h3 style="font-family:'Noto Serif TC',serif; font-size:17px; font-weight:700; color:#8B1A3C; margin:0 0 10px;">不會技術</h3>
+          <p style="font-size:13.5px; color:#5C3848; line-height:1.75; margin:0;">剪輯、設備、上架——光想到這些就頭痛，打開電腦就卻步，最後什麼都沒開始。</p>
+        </div>
+        <div style="background:rgba(255,255,255,0.7); backdrop-filter:blur(8px); border:1px solid rgba(212,168,75,0.2); border-radius:16px; padding:28px 24px; text-align:center;">
+          <span style="font-size:36px; margin-bottom:16px; display:block;">⏰</span>
+          <h3 style="font-family:'Noto Serif TC',serif; font-size:17px; font-weight:700; color:#8B1A3C; margin:0 0 10px;">沒有時間</h3>
+          <p style="font-size:13.5px; color:#5C3848; line-height:1.75; margin:0;">工作、家庭已經夠忙了，一集 Podcast 要花 20 小時？根本不可能持續。</p>
+        </div>
+        <div style="background:rgba(255,255,255,0.7); backdrop-filter:blur(8px); border:1px solid rgba(212,168,75,0.2); border-radius:16px; padding:28px 24px; text-align:center;">
+          <span style="font-size:36px; margin-bottom:16px; display:block;">😶</span>
+          <h3 style="font-family:'Noto Serif TC',serif; font-size:17px; font-weight:700; color:#8B1A3C; margin:0 0 10px;">害怕開口</h3>
+          <p style="font-size:13.5px; color:#5C3848; line-height:1.75; margin:0;">面對麥克風腦袋一片空白，不知道說什麼好，擔心自己說的沒有人想聽。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ 現場照片牆 ══ -->
+  <section style="background:#FDF6F4; padding:72px 24px;">
+    <div style="max-width:920px; margin:0 auto;">
+      <p style="font-size:11px; letter-spacing:0.25em; color:#D4A84B; text-align:center; margin:0 0 12px; text-transform:uppercase;">6 / 27 工作坊現場</p>
+      <h2 style="font-family:'Noto Serif TC',serif; font-size:clamp(24px,4vw,34px); font-weight:700; color:#8B1A3C; text-align:center; margin:0 0 48px; line-height:1.35;">她們也曾經覺得自己做不到</h2>
+    </div>
+    <div style="max-width:1000px; margin:0 auto; display:grid; grid-template-columns:repeat(auto-fit, minmax(200px,1fr)); gap:12px;">
+      <div style="border-radius:12px; overflow:hidden; aspect-ratio:4/3;"><img src="img_002.jpg" alt="6/27 工作坊全體合照" loading="lazy" style="width:100%; height:100%; object-fit:cover; display:block;"></div>
+      <div style="border-radius:12px; overflow:hidden; aspect-ratio:4/3;"><img src="img_003.jpg" alt="芳棠老師授課中" loading="lazy" style="width:100%; height:100%; object-fit:cover; display:block;"></div>
+      <div style="border-radius:12px; overflow:hidden; aspect-ratio:4/3;"><img src="img_004.jpg" alt="學員專注學習" loading="lazy" style="width:100%; height:100%; object-fit:cover; display:block;"></div>
+      <div style="border-radius:12px; overflow:hidden; aspect-ratio:4/3;"><img src="img_005.jpg" alt="學員笑容" loading="lazy" style="width:100%; height:100%; object-fit:cover; display:block;"></div>
+      <div style="border-radius:12px; overflow:hidden; aspect-ratio:4/3;"><img src="img_006.jpg" alt="JEAN 介紹課程內容" loading="lazy" style="width:100%; height:100%; object-fit:cover; display:block;"></div>
+      <div style="border-radius:12px; overflow:hidden; aspect-ratio:4/3;"><img src="img_007.jpg" alt="學員上課現場" loading="lazy" style="width:100%; height:100%; object-fit:cover; display:block;"></div>
+    </div>
+    <div style="max-width:920px; margin:20px auto 0; text-align:center;">
+      <p style="font-size:14px; color:#5C3848; font-style:italic; margin:0;">2026 年 6 月 27 日・<span style="color:#8B1A3C; font-weight:700;">AI Podcast 聊天煉金術工作坊</span>・南京復興站</p>
+    </div>
+  </section>
+
+  <!-- ══ 數據條 ══ -->
+  <section style="background:linear-gradient(135deg,#8B1A3C,#7B2848,#5A1830); padding:60px 24px;">
+    <div style="max-width:860px; margin:0 auto; display:grid; grid-template-columns:repeat(auto-fit, minmax(200px,1fr)); gap:32px;">
+      <div style="text-align:center;"><div style="font-family:'Noto Serif TC',serif; font-size:clamp(36px,6vw,52px); font-weight:900; color:#F0D080; line-height:1; margin-bottom:6px;">58%</div><div style="font-size:13px; color:rgba(242,208,200,0.9); line-height:1.6;">的人認為聲音<br>比視覺更容易留下印象</div></div>
+      <div style="text-align:center;"><div style="font-family:'Noto Serif TC',serif; font-size:clamp(36px,6vw,52px); font-weight:900; color:#F0D080; line-height:1; margin-bottom:6px;">49.1%</div><div style="font-size:13px; color:rgba(242,208,200,0.9); line-height:1.6;">Podcast 聽眾注意力集中度<br>遠超 IG 與 Facebook</div></div>
+      <div style="text-align:center;"><div style="font-family:'Noto Serif TC',serif; font-size:clamp(36px,6vw,52px); font-weight:900; color:#F0D080; line-height:1; margin-bottom:6px;">26%</div><div style="font-size:13px; color:rgba(242,208,200,0.9); line-height:1.6;">台灣 Podcast 市場年增率<br>主力聽眾：28–44 歲高消費族群</div></div>
+    </div>
+  </section>
+
+  <!-- ══ 學員 Podcast 成果牆 ══ -->
+  <section style="background:linear-gradient(160deg,#F9EEF0,#F0E8F5); padding:80px 24px;">
+    <div style="max-width:920px; margin:0 auto;">
+      <p style="font-size:11px; letter-spacing:0.25em; color:#D4A84B; text-align:center; margin:0 0 12px; text-transform:uppercase;">學員真實成果</p>
+      <h2 style="font-family:'Noto Serif TC',serif; font-size:clamp(24px,4vw,34px); font-weight:700; color:#8B1A3C; text-align:center; margin:0 0 20px; line-height:1.35;">她們學完之後，做出了自己的節目</h2>
+      <p style="max-width:720px; margin:0 auto 40px; text-align:center; font-size:15px; color:#5C3848; line-height:1.85;">這些都是<strong style="color:#8B1A3C;">真實學員</strong>上完課後製作的 Podcast 節目封面。<br>從零開始，到有自己的節目在全球平台上架——<strong style="color:#8B1A3C;">妳也可以。</strong></p>
+    </div>
+    <div style="max-width:960px; margin:0 auto; display:grid; grid-template-columns:repeat(auto-fit, minmax(220px,1fr)); gap:20px;">
+      <div style="background:white; border-radius:14px; overflow:hidden; border:1px solid rgba(212,168,75,0.18); box-shadow:0 4px 16px rgba(200,168,192,0.15);">
+        <div style="aspect-ratio:1; overflow:hidden;"><img src="img_008.jpg" alt="明景法律相談室" style="width:100%; height:100%; object-fit:cover; display:block;"></div>
+        <div style="padding:14px 16px;"><div style="font-family:'Noto Serif TC',serif; font-size:14px; font-weight:700; color:#8B1A3C; margin-bottom:4px;">明景法律相談室</div><div style="font-size:12px; color:#5C3848; line-height:1.55;">法律知識 Podcast，用聲音讓更多人了解自身權益</div></div>
+      </div>
+      <div style="background:white; border-radius:14px; overflow:hidden; border:1px solid rgba(212,168,75,0.18); box-shadow:0 4px 16px rgba(200,168,192,0.15);">
+        <div style="aspect-ratio:1; overflow:hidden;"><img src="img_009.jpg" alt="人生拆解室" style="width:100%; height:100%; object-fit:cover; display:block;"></div>
+        <div style="padding:14px 16px;"><div style="font-family:'Noto Serif TC',serif; font-size:14px; font-weight:700; color:#8B1A3C; margin-bottom:4px;">人生拆解室</div><div style="font-size:12px; color:#5C3848; line-height:1.55;">深度對話節目，拆解人生每個關鍵決策</div></div>
+      </div>
+      <div style="background:white; border-radius:14px; overflow:hidden; border:1px solid rgba(212,168,75,0.18); box-shadow:0 4px 16px rgba(200,168,192,0.15);">
+        <div style="aspect-ratio:1; overflow:hidden;"><img src="img_010.jpg" alt="還在路上" style="width:100%; height:100%; object-fit:cover; display:block;"></div>
+        <div style="padding:14px 16px;"><div style="font-family:'Noto Serif TC',serif; font-size:14px; font-weight:700; color:#8B1A3C; margin-bottom:4px;">還在路上</div><div style="font-size:12px; color:#5C3848; line-height:1.55;">一個正在找路的人，邊走邊說</div></div>
+      </div>
+      <div style="background:white; border-radius:14px; overflow:hidden; border:1px solid rgba(212,168,75,0.18); box-shadow:0 4px 16px rgba(200,168,192,0.15);">
+        <div style="aspect-ratio:1; overflow:hidden;"><img src="img_011.jpg" alt="自業 TUFF" style="width:100%; height:100%; object-fit:cover; display:block;"></div>
+        <div style="padding:14px 16px;"><div style="font-family:'Noto Serif TC',serif; font-size:14px; font-weight:700; color:#8B1A3C; margin-bottom:4px;">自業 TUFF</div><div style="font-size:12px; color:#5C3848; line-height:1.55;">各行各業的後台操盤筆記</div></div>
+      </div>
+      <div style="background:white; border-radius:14px; overflow:hidden; border:1px solid rgba(212,168,75,0.18); box-shadow:0 4px 16px rgba(200,168,192,0.15);">
+        <div style="aspect-ratio:1; overflow:hidden;"><img src="img_012.jpg" alt="角色思維" style="width:100%; height:100%; object-fit:cover; display:block;"></div>
+        <div style="padding:14px 16px;"><div style="font-family:'Noto Serif TC',serif; font-size:14px; font-weight:700; color:#8B1A3C; margin-bottom:4px;">角色思維</div><div style="font-size:12px; color:#5C3848; line-height:1.55;">電影關係實驗室</div></div>
+      </div>
+      <div style="background:white; border-radius:14px; overflow:hidden; border:1px solid rgba(212,168,75,0.18); box-shadow:0 4px 16px rgba(200,168,192,0.15);">
+        <div style="aspect-ratio:1; overflow:hidden;"><img src="img_013.jpg" alt="初光對話錄" style="width:100%; height:100%; object-fit:cover; display:block;"></div>
+        <div style="padding:14px 16px;"><div style="font-family:'Noto Serif TC',serif; font-size:14px; font-weight:700; color:#8B1A3C; margin-bottom:4px;">初光對話錄</div><div style="font-size:12px; color:#5C3848; line-height:1.55;">關於成長、人生與讓我們變勇敢的故事</div></div>
+      </div>
+    </div>
+    <div style="max-width:720px; margin:28px auto 0; text-align:center;"><p style="font-size:13px; color:#5C3848; font-style:italic; margin:0;">以上均為學員自主創建的 Podcast 節目・已在 Spotify / Apple Podcasts 等平台上架</p></div>
+  </section>
+
+  <!-- ══ 學員真實見證 ══ -->
+  <section style="background:linear-gradient(160deg,#FDF6F4,#F9EEF0,#F4EBF8); padding:80px 24px;">
+    <div style="max-width:920px; margin:0 auto;">
+      <p style="font-size:11px; letter-spacing:0.25em; color:#D4A84B; text-align:center; margin:0 0 12px; text-transform:uppercase;">真實學員回饋</p>
+      <h2 style="font-family:'Noto Serif TC',serif; font-size:clamp(24px,4vw,34px); font-weight:700; color:#8B1A3C; text-align:center; margin:0 0 12px; line-height:1.35;">她們說的，比我說的更有力</h2>
+      <p style="max-width:680px; margin:-4px auto 40px; text-align:center; font-size:13px; color:#9B7080; font-style:italic;">以下均為學員課後主動分享的真實回饋，截圖已遮蔽個人隱私資訊</p>
+    </div>
+    <div style="max-width:1040px; margin:0 auto; display:grid; grid-template-columns:repeat(auto-fit, minmax(360px,1fr)); gap:24px;">
+
+      <div style="background:white; border-radius:18px; border:1px solid rgba(212,168,75,0.18); box-shadow:0 4px 20px rgba(200,168,192,0.15); overflow:hidden;">
+        <div style="font-size:11px; font-weight:700; letter-spacing:0.1em; padding:8px 18px; border-bottom:1px solid rgba(212,168,75,0.1); color:#C8A8C0; background:rgba(200,168,192,0.15);">💬 LINE 真實回饋</div>
+        <div style="display:flex; flex-wrap:wrap;">
+          <div style="flex:0 0 200px; border-right:1px solid #F0E8E5; overflow:hidden; max-height:320px;"><img src="img_014.jpg" alt="學員見證截圖" loading="lazy" style="width:100%; height:100%; object-fit:cover; object-position:top; display:block;"></div>
+          <div style="flex:1 1 160px; padding:22px 22px 20px; display:flex; flex-direction:column; justify-content:space-between;">
+            <div style="font-family:'Noto Serif TC',serif; font-size:40px; color:rgba(212,168,75,0.3); line-height:1; margin-bottom:4px;">"</div>
+            <p style="font-size:14px; color:#5C3848; line-height:1.85; margin:0 0 16px; flex:1;">謝謝老師用心的教學，讓我們快速進入製作、錄製、剪輯、上架 Podcast。超棒的！</p>
+            <div style="background:rgba(212,168,75,0.1); border-left:3px solid #D4A84B; padding:7px 12px; font-size:12.5px; font-weight:700; color:#8B1A3C; border-radius:0 6px 6px 0; margin-bottom:12px; display:flex; align-items:center; gap:6px;"><span style="color:#D4A84B;">✦</span>已上架《女人要理財》Podcast</div>
+            <div style="font-size:12px; color:#9B7080; font-style:italic;">小米 Amy（理財 Podcaster）</div>
+          </div>
+        </div>
+      </div>
+
+      <div style="background:white; border-radius:18px; border:1px solid rgba(212,168,75,0.18); box-shadow:0 4px 20px rgba(200,168,192,0.15); overflow:hidden;">
+        <div style="font-size:11px; font-weight:700; letter-spacing:0.1em; padding:8px 18px; border-bottom:1px solid rgba(212,168,75,0.1); color:#C8A8C0; background:rgba(200,168,192,0.15);">💬 LINE 真實回饋</div>
+        <div style="display:flex; flex-wrap:wrap;">
+          <div style="flex:0 0 200px; border-right:1px solid #F0E8E5; overflow:hidden; max-height:320px;"><img src="img_015.jpg" alt="學員見證截圖" loading="lazy" style="width:100%; height:100%; object-fit:cover; object-position:top; display:block;"></div>
+          <div style="flex:1 1 160px; padding:22px 22px 20px; display:flex; flex-direction:column; justify-content:space-between;">
+            <div style="font-family:'Noto Serif TC',serif; font-size:40px; color:rgba(212,168,75,0.3); line-height:1; margin-bottom:4px;">"</div>
+            <p style="font-size:14px; color:#5C3848; line-height:1.85; margin:0 0 16px; flex:1;">竟然在一個月內完成上架，真是超乎意料之外！謝謝老師與大家的陪伴！</p>
+            <div style="background:rgba(212,168,75,0.1); border-left:3px solid #D4A84B; padding:7px 12px; font-size:12.5px; font-weight:700; color:#8B1A3C; border-radius:0 6px 6px 0; margin-bottom:12px; display:flex; align-items:center; gap:6px;"><span style="color:#D4A84B;">✦</span>從零到上架，只花一個月</div>
+            <div style="font-size:12px; color:#9B7080; font-style:italic;">Filin 昱佑</div>
+          </div>
+        </div>
+      </div>
+
+      <div style="background:white; border-radius:18px; border:1px solid rgba(212,168,75,0.18); box-shadow:0 4px 20px rgba(200,168,192,0.15); overflow:hidden;">
+        <div style="font-size:11px; font-weight:700; letter-spacing:0.1em; padding:8px 18px; border-bottom:1px solid rgba(212,168,75,0.1); color:#C8A8C0; background:rgba(200,168,192,0.15);">💬 LINE 真實回饋</div>
+        <div style="display:flex; flex-wrap:wrap;">
+          <div style="flex:0 0 200px; border-right:1px solid #F0E8E5; overflow:hidden; max-height:320px;"><img src="img_016.jpg" alt="學員見證截圖" loading="lazy" style="width:100%; height:100%; object-fit:cover; object-position:top; display:block;"></div>
+          <div style="flex:1 1 160px; padding:22px 22px 20px; display:flex; flex-direction:column; justify-content:space-between;">
+            <div style="font-family:'Noto Serif TC',serif; font-size:40px; color:rgba(212,168,75,0.3); line-height:1; margin-bottom:4px;">"</div>
+            <p style="font-size:14px; color:#5C3848; line-height:1.85; margin:0 0 16px; flex:1;">我在荷蘭也準時更新上架了 Ep7！歡迎大家收聽！</p>
+            <div style="background:rgba(212,168,75,0.1); border-left:3px solid #D4A84B; padding:7px 12px; font-size:12.5px; font-weight:700; color:#8B1A3C; border-radius:0 6px 6px 0; margin-bottom:12px; display:flex; align-items:center; gap:6px;"><span style="color:#D4A84B;">✦</span>身在海外也能持續更新</div>
+            <div style="font-size:12px; color:#9B7080; font-style:italic;">DeNa（人生拆解室）</div>
+          </div>
+        </div>
+      </div>
+
+      <div style="background:white; border-radius:18px; border:1px solid rgba(212,168,75,0.18); box-shadow:0 4px 20px rgba(200,168,192,0.15); overflow:hidden;">
+        <div style="font-size:11px; font-weight:700; letter-spacing:0.1em; padding:8px 18px; border-bottom:1px solid rgba(212,168,75,0.1); color:#D4A84B; background:rgba(212,168,75,0.12);">📱 社群真實貼文</div>
+        <div style="display:flex; flex-wrap:wrap;">
+          <div style="flex:0 0 200px; border-right:1px solid #F0E8E5; overflow:hidden; max-height:320px;"><img src="img_017.jpg" alt="學員見證截圖" loading="lazy" style="width:100%; height:100%; object-fit:cover; object-position:top; display:block;"></div>
+          <div style="flex:1 1 160px; padding:22px 22px 20px; display:flex; flex-direction:column; justify-content:space-between;">
+            <div style="font-family:'Noto Serif TC',serif; font-size:40px; color:rgba(212,168,75,0.3); line-height:1; margin-bottom:4px;">"</div>
+            <p style="font-size:14px; color:#5C3848; line-height:1.85; margin:0 0 16px; flex:1;">這是我的 Podcast 老師，她的課含金量高。上完 4 次課，就讓我可以做出自己的 Podcast 節目。超級推薦給想做 Podcast 的朋友們！</p>
+            <div style="background:rgba(212,168,75,0.1); border-left:3px solid #D4A84B; padding:7px 12px; font-size:12.5px; font-weight:700; color:#8B1A3C; border-radius:0 6px 6px 0; margin-bottom:12px; display:flex; align-items:center; gap:6px;"><span style="color:#D4A84B;">✦</span>4 堂課做出自己的節目</div>
+            <div style="font-size:12px; color:#9B7080; font-style:italic;">Amy（女人要理財）</div>
+          </div>
+        </div>
+      </div>
+
+      <div style="background:white; border-radius:18px; border:1px solid rgba(212,168,75,0.18); box-shadow:0 4px 20px rgba(200,168,192,0.15); overflow:hidden;">
+        <div style="font-size:11px; font-weight:700; letter-spacing:0.1em; padding:8px 18px; border-bottom:1px solid rgba(212,168,75,0.1); color:#D4A84B; background:rgba(212,168,75,0.12);">📱 社群真實貼文</div>
+        <div style="display:flex; flex-wrap:wrap;">
+          <div style="flex:0 0 200px; border-right:1px solid #F0E8E5; overflow:hidden; max-height:320px;"><img src="img_018.jpg" alt="學員見證截圖" loading="lazy" style="width:100%; height:100%; object-fit:cover; object-position:top; display:block;"></div>
+          <div style="flex:1 1 160px; padding:22px 22px 20px; display:flex; flex-direction:column; justify-content:space-between;">
+            <div style="font-family:'Noto Serif TC',serif; font-size:40px; color:rgba(212,168,75,0.3); line-height:1; margin-bottom:4px;">"</div>
+            <p style="font-size:14px; color:#5C3848; line-height:1.85; margin:0 0 16px; flex:1;">短短 4 堂課就帶領我從小白到完成第一集上架！老師的引導讓我從一開始的緊張，到後來完全開啟「聊天模式」，聊到欲罷不能。</p>
+            <div style="background:rgba(212,168,75,0.1); border-left:3px solid #D4A84B; padding:7px 12px; font-size:12.5px; font-weight:700; color:#8B1A3C; border-radius:0 6px 6px 0; margin-bottom:12px; display:flex; align-items:center; gap:6px;"><span style="color:#D4A84B;">✦</span>從小白到第一集上架</div>
+            <div style="font-size:12px; color:#9B7080; font-style:italic;">Amy（女人要理財）</div>
+          </div>
+        </div>
+      </div>
+
+      <div style="background:white; border-radius:18px; border:1px solid rgba(212,168,75,0.18); box-shadow:0 4px 20px rgba(200,168,192,0.15); overflow:hidden;">
+        <div style="font-size:11px; font-weight:700; letter-spacing:0.1em; padding:8px 18px; border-bottom:1px solid rgba(212,168,75,0.1); color:#D4A84B; background:rgba(212,168,75,0.12);">📱 社群真實貼文</div>
+        <div style="display:flex; flex-wrap:wrap;">
+          <div style="flex:0 0 200px; border-right:1px solid #F0E8E5; overflow:hidden; max-height:320px;"><img src="img_019.jpg" alt="學員見證截圖" loading="lazy" style="width:100%; height:100%; object-fit:cover; object-position:top; display:block;"></div>
+          <div style="flex:1 1 160px; padding:22px 22px 20px; display:flex; flex-direction:column; justify-content:space-between;">
+            <div style="font-family:'Noto Serif TC',serif; font-size:40px; color:rgba(212,168,75,0.3); line-height:1; margin-bottom:4px;">"</div>
+            <p style="font-size:14px; color:#5C3848; line-height:1.85; margin:0 0 16px; flex:1;">從 0 到 1，原來 Podcast 沒那麼遠。跟著 Jean 芳棠老師，一步步打開了 Podcast 的世界。老師甚至無私分享實用指令，讓每個人都能快速打造自己的節目雛形。</p>
+            <div style="background:rgba(212,168,75,0.1); border-left:3px solid #D4A84B; padding:7px 12px; font-size:12.5px; font-weight:700; color:#8B1A3C; border-radius:0 6px 6px 0; margin-bottom:12px; display:flex; align-items:center; gap:6px;"><span style="color:#D4A84B;">✦</span>整個班都成功做出節目</div>
+            <div style="font-size:12px; color:#9B7080; font-style:italic;">日夢孵化器 T Master</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══ 四週課綱 ══ -->
+  <section style="background:#FDF6F4; padding:80px 24px;">
+    <div style="max-width:860px; margin:0 auto;">
+      <p style="font-size:11px; letter-spacing:0.25em; color:#D4A84B; text-align:center; margin:0 0 12px; text-transform:uppercase;">課程內容</p>
+      <h2 style="font-family:'Noto Serif TC',serif; font-size:clamp(24px,4vw,34px); font-weight:700; color:#8B1A3C; text-align:center; margin:0 0 48px; line-height:1.35;">四個週六，從定位到變現<br>完整陪妳走完</h2>
+      <div style="display:flex; flex-direction:column; gap:20px;">
+
+        <div style="display:flex; flex-wrap:wrap; border-radius:16px; overflow:hidden; box-shadow:0 4px 20px rgba(200,168,192,0.15); border:1px solid rgba(212,168,75,0.15);">
+          <div style="flex:0 0 100px; background:linear-gradient(160deg,#F2D0C8,#C8A8C0); display:flex; flex-direction:column; align-items:center; justify-content:center; padding:28px 16px; gap:4px;"><span style="font-size:10px; letter-spacing:0.15em; color:#8B1A3C; font-weight:700;">WEEK</span><span style="font-family:'Noto Serif TC',serif; font-size:32px; font-weight:900; color:#8B1A3C; line-height:1;">01</span></div>
+          <div style="flex:1 1 260px; background:white; padding:24px 28px;">
+            <div style="font-size:12px; color:#D4A84B; font-weight:600; letter-spacing:0.08em; margin-bottom:10px;">7 / 11（六）・聲音定位</div>
+            <h3 style="font-family:'Noto Serif TC',serif; font-size:17px; font-weight:700; color:#8B1A3C; margin:0 0 8px;">Podcast 戰略九宮格</h3>
+            <p style="font-size:14px; color:#5C3848; line-height:1.75; margin:0;">找到妳無法被取代的聲音定位與目標聽眾。用一張九宮格，把二十年的人生智慧，變成清晰的節目藍圖。</p>
+          </div>
+        </div>
+
+        <div style="display:flex; flex-wrap:wrap; border-radius:16px; overflow:hidden; box-shadow:0 4px 20px rgba(200,168,192,0.15); border:1px solid rgba(212,168,75,0.15);">
+          <div style="flex:0 0 100px; background:linear-gradient(160deg,#F2D0C8,#C8A8C0); display:flex; flex-direction:column; align-items:center; justify-content:center; padding:28px 16px; gap:4px;"><span style="font-size:10px; letter-spacing:0.15em; color:#8B1A3C; font-weight:700;">WEEK</span><span style="font-family:'Noto Serif TC',serif; font-size:32px; font-weight:900; color:#8B1A3C; line-height:1;">02</span></div>
+          <div style="flex:1 1 260px; background:white; padding:24px 28px;">
+            <div style="font-size:12px; color:#D4A84B; font-weight:600; letter-spacing:0.08em; margin-bottom:10px;">7 / 18（六）・AI 腳本</div>
+            <h3 style="font-family:'Noto Serif TC',serif; font-size:17px; font-weight:700; color:#8B1A3C; margin:0 0 8px;">AI 魔法模板・腳本效率提升 80%</h3>
+            <p style="font-size:14px; color:#5C3848; line-height:1.75; margin:0;">把 AI 訓練成你的節目企劃助理，腳本生成效率提升 80%，靈感永不枯竭。從此告別「不知道說什麼」。</p>
+          </div>
+        </div>
+
+        <div style="display:flex; flex-wrap:wrap; border-radius:16px; overflow:hidden; box-shadow:0 4px 20px rgba(200,168,192,0.15); border:1px solid rgba(212,168,75,0.15);">
+          <div style="flex:0 0 100px; background:linear-gradient(160deg,#F2D0C8,#C8A8C0); display:flex; flex-direction:column; align-items:center; justify-content:center; padding:28px 16px; gap:4px;"><span style="font-size:10px; letter-spacing:0.15em; color:#8B1A3C; font-weight:700;">WEEK</span><span style="font-family:'Noto Serif TC',serif; font-size:32px; font-weight:900; color:#8B1A3C; line-height:1;">03</span></div>
+          <div style="flex:1 1 260px; background:white; padding:24px 28px;">
+            <div style="font-size:12px; color:#D4A84B; font-weight:600; letter-spacing:0.08em; margin-bottom:10px;">7 / 25（六）・錄製剪輯</div>
+            <h3 style="font-family:'Noto Serif TC',serif; font-size:17px; font-weight:700; color:#8B1A3C; margin:0 0 8px;">手機錄出錄音室音質</h3>
+            <p style="font-size:14px; color:#5C3848; line-height:1.75; margin:0;">在家用手機錄出錄音室音質，並用 Descript 像改作文一樣完成剪輯，後製時間大幅縮短。</p>
+          </div>
+        </div>
+
+        <div style="display:flex; flex-wrap:wrap; border-radius:16px; overflow:hidden; box-shadow:0 4px 20px rgba(200,168,192,0.15); border:1px solid rgba(212,168,75,0.15);">
+          <div style="flex:0 0 100px; background:linear-gradient(160deg,#F2D0C8,#C8A8C0); display:flex; flex-direction:column; align-items:center; justify-content:center; padding:28px 16px; gap:4px;"><span style="font-size:10px; letter-spacing:0.15em; color:#8B1A3C; font-weight:700;">WEEK</span><span style="font-family:'Noto Serif TC',serif; font-size:32px; font-weight:900; color:#8B1A3C; line-height:1;">04</span></div>
+          <div style="flex:1 1 260px; background:white; padding:24px 28px;">
+            <div style="font-size:12px; color:#D4A84B; font-weight:600; letter-spacing:0.08em; margin-bottom:10px;">8 / 1（六）・上架變現</div>
+            <h3 style="font-family:'Noto Serif TC',serif; font-size:17px; font-weight:700; color:#8B1A3C; margin:0 0 8px;">全球平台上架 × 商業變現路徑</h3>
+            <p style="font-size:14px; color:#5C3848; line-height:1.75; margin:0;">實機操作上架 Spotify、Apple Podcast 等全球平台，並制定妳專屬的變現路徑——廣告置入、會員訂閱、課程轉化。</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ 課程規格 ══ -->
+  <section id="specs" style="background:linear-gradient(160deg,#F9EEF0,#F0E8F5); padding:70px 24px;">
+    <div style="max-width:820px; margin:0 auto;">
+      <p style="font-size:11px; letter-spacing:0.25em; color:#D4A84B; text-align:center; margin:0 0 12px; text-transform:uppercase;">課程規格</p>
+      <h2 style="font-family:'Noto Serif TC',serif; font-size:clamp(24px,4vw,34px); font-weight:700; color:#8B1A3C; text-align:center; margin:0 0 48px; line-height:1.35;">妳需要知道的一切</h2>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px,1fr)); gap:20px;">
+        <div style="background:white; border-radius:14px; padding:24px 22px; border:1px solid rgba(212,168,75,0.18); display:flex; gap:16px; align-items:flex-start;"><span style="font-size:24px; flex-shrink:0; margin-top:2px;">📅</span><div><h4 style="font-family:'Noto Serif TC',serif; font-size:15px; font-weight:700; color:#8B1A3C; margin:0 0 6px;">上課時間</h4><p style="font-size:13px; color:#5C3848; line-height:1.7; margin:0;">每週六・下午 2:00–4:00<br>7/11、7/18、7/25、8/1<br>共四堂・每堂約 2 小時</p></div></div>
+        <div style="background:white; border-radius:14px; padding:24px 22px; border:1px solid rgba(212,168,75,0.18); display:flex; gap:16px; align-items:flex-start;"><span style="font-size:24px; flex-shrink:0; margin-top:2px;">📍</span><div><h4 style="font-family:'Noto Serif TC',serif; font-size:15px; font-weight:700; color:#8B1A3C; margin:0 0 6px;">上課地點</h4><p style="font-size:13px; color:#5C3848; line-height:1.7; margin:0;">台北市許昌街 42 號 8 樓<br>萊客商務中心<br>（台北車站步行 3 分鐘）</p></div></div>
+        <div style="background:white; border-radius:14px; padding:24px 22px; border:1px solid rgba(212,168,75,0.18); display:flex; gap:16px; align-items:flex-start;"><span style="font-size:24px; flex-shrink:0; margin-top:2px;">💻</span><div><h4 style="font-family:'Noto Serif TC',serif; font-size:15px; font-weight:700; color:#8B1A3C; margin:0 0 6px;">線上線下同步</h4><p style="font-size:13px; color:#5C3848; line-height:1.7; margin:0;">實體課程同步線上直播<br>無論妳在哪裡都能跟上</p></div></div>
+        <div style="background:white; border-radius:14px; padding:24px 22px; border:1px solid rgba(212,168,75,0.18); display:flex; gap:16px; align-items:flex-start;"><span style="font-size:24px; flex-shrink:0; margin-top:2px;">🔄</span><div><h4 style="font-family:'Noto Serif TC',serif; font-size:15px; font-weight:700; color:#8B1A3C; margin:0 0 6px;">可請假補課</h4><p style="font-size:13px; color:#5C3848; line-height:1.7; margin:0;">每堂課均提供補課機制<br>臨時有事不用擔心</p></div></div>
+        <div style="background:white; border-radius:14px; padding:24px 22px; border:1px solid rgba(212,168,75,0.18); display:flex; gap:16px; align-items:flex-start;"><span style="font-size:24px; flex-shrink:0; margin-top:2px;">🤖</span><div><h4 style="font-family:'Noto Serif TC',serif; font-size:15px; font-weight:700; color:#8B1A3C; margin:0 0 6px;">AI 工作流模板</h4><p style="font-size:13px; color:#5C3848; line-height:1.7; margin:0;">完整 AI Podcast 工作流<br>課後帶走、永久使用</p></div></div>
+        <div style="background:white; border-radius:14px; padding:24px 22px; border:1px solid rgba(212,168,75,0.18); display:flex; gap:16px; align-items:flex-start;"><span style="font-size:24px; flex-shrink:0; margin-top:2px;">👥</span><div><h4 style="font-family:'Noto Serif TC',serif; font-size:15px; font-weight:700; color:#8B1A3C; margin:0 0 6px;">SKOOL 社群支援</h4><p style="font-size:13px; color:#5C3848; line-height:1.7; margin:0;">加入 MissBoss 學員社群<br>芳棠老師親自回覆</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ 講師介紹 ══ -->
+  <section style="background:#FDF6F4; padding:80px 24px;">
+    <div style="max-width:900px; margin:0 auto; display:flex; flex-wrap:wrap; gap:56px; align-items:center; justify-content:center;">
+      <div style="flex:0 0 280px; position:relative; text-align:center;">
+        <img src="img_001.jpg" alt="芳棠 JEAN" style="width:100%; max-width:280px; aspect-ratio:1; border-radius:20px; object-fit:cover; object-position:center top; border:3px solid rgba(212,168,75,0.4); box-shadow:0 16px 48px rgba(139,26,60,0.18); display:inline-block;">
+        <div style="position:absolute; bottom:-14px; left:50%; transform:translateX(-50%); background:#8B1A3C; color:white; font-size:12px; font-weight:700; padding:7px 20px; border-radius:30px; white-space:nowrap; box-shadow:0 4px 16px rgba(139,26,60,0.3);">✦ 芳棠 JEAN｜MissBoss 創辦人</div>
+      </div>
+      <div style="flex:1 1 420px; min-width:280px;">
+        <p style="font-size:11px; letter-spacing:0.2em; color:#D4A84B; margin:0 0 12px; font-weight:700;">ABOUT YOUR GUIDE</p>
+        <h2 style="font-family:'Noto Serif TC',serif; font-size:clamp(26px,4vw,36px); font-weight:900; color:#8B1A3C; margin:0 0 6px;">芳棠 JEAN</h2>
+        <p style="font-size:14px; color:#5C3848; margin:0 0 20px; font-style:italic;">《芳齡在線》Podcast 主持人・MissBoss 創辦人</p>
+        <div style="width:60px; height:2px; background:linear-gradient(90deg,#D4A84B,transparent); margin-bottom:20px;"></div>
+        <p style="font-size:14px; color:#5C3848; line-height:1.9; margin:0 0 16px;">兩岸媒體行銷超過十年以上資歷，入圍第四屆海外華文媒體報導大獎，知名電視台節目企劃／主持人，旅遊集團海外派駐資深行銷主管。</p>
+        <p style="font-size:14px; color:#5C3848; line-height:1.9; margin:0 0 16px;">主持《芳齡在線》Podcast，已累積 150+ 集，親身實踐 AI 工作流，把單集製作從 20 小時壓縮到 2 小時。陪伴 100+ 熟齡女性企業家建立個人品牌。</p>
+        <div style="display:flex; flex-wrap:wrap; gap:8px;">
+          <span style="background:rgba(212,168,75,0.12); border:1px solid rgba(212,168,75,0.3); color:#8B1A3C; font-size:12px; font-weight:600; padding:5px 14px; border-radius:20px;">Podcast 主持人</span>
+          <span style="background:rgba(212,168,75,0.12); border:1px solid rgba(212,168,75,0.3); color:#8B1A3C; font-size:12px; font-weight:600; padding:5px 14px; border-radius:20px;">入圍海外華文媒體獎</span>
+          <span style="background:rgba(212,168,75,0.12); border:1px solid rgba(212,168,75,0.3); color:#8B1A3C; font-size:12px; font-weight:600; padding:5px 14px; border-radius:20px;">AI 工作流設計師</span>
+          <span style="background:rgba(212,168,75,0.12); border:1px solid rgba(212,168,75,0.3); color:#8B1A3C; font-size:12px; font-weight:600; padding:5px 14px; border-radius:20px;">兩岸媒體資歷 10+年</span>
+          <span style="background:rgba(212,168,75,0.12); border:1px solid rgba(212,168,75,0.3); color:#8B1A3C; font-size:12px; font-weight:600; padding:5px 14px; border-radius:20px;">女性個人品牌專家</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ JEAN 的 Podcast 節目封面牆 ══ -->
+  <section style="background:linear-gradient(160deg,#8B1A3C,#7B2848); padding:70px 24px;">
+    <div style="max-width:920px; margin:0 auto;">
+      <p style="font-size:11px; letter-spacing:0.25em; color:#F0D080; text-align:center; margin:0 0 32px; text-transform:uppercase;">真實製作・不是示範</p>
+    </div>
+    <div style="max-width:800px; margin:0 auto; display:grid; grid-template-columns:repeat(auto-fit, minmax(200px,1fr)); gap:16px;">
+      <img src="img_020.jpg" alt="芳棠 JEAN Podcast 聊天煉金術" style="width:100%; border-radius:10px; box-shadow:0 6px 20px rgba(0,0,0,0.3); display:block;">
+      <img src="img_021.jpg" alt="芳棠 JEAN Podcast 2" style="width:100%; border-radius:10px; box-shadow:0 6px 20px rgba(0,0,0,0.3); display:block;">
+      <img src="img_022.jpg" alt="芳棠 JEAN Podcast 3" style="width:100%; border-radius:10px; box-shadow:0 6px 20px rgba(0,0,0,0.3); display:block;">
+    </div>
+    <p style="max-width:720px; margin:24px auto 0; text-align:center; font-size:13px; color:rgba(242,208,200,0.8); font-style:italic;">芳棠老師自身也在持續產出，帶著真實的 Podcast 製作經驗陪伴妳走完全程</p>
+  </section>
+
+  <!-- ══ 早鳥價格 ══ -->
+  <section id="pricing" style="background:linear-gradient(160deg,#8B1A3C,#7B2848,#5A1830); padding:80px 24px; position:relative; overflow:hidden;">
+    <div style="position:absolute; inset:0; background-image:url('img_000.jpg'); background-size:cover; background-position:center; opacity:0.06; z-index:0;"></div>
+    <div style="max-width:600px; margin:0 auto; position:relative; z-index:2;">
+      <p style="font-size:11px; letter-spacing:0.25em; color:#F0D080; text-align:center; margin:0 0 12px; text-transform:uppercase;">✦ 限額早鳥優惠 ✦</p>
+      <h2 style="font-family:'Noto Serif TC',serif; font-size:clamp(22px,4vw,30px); font-weight:700; color:white; text-align:center; margin:0 0 36px; line-height:1.35;">每週六，開始妳的聲音事業</h2>
+      <div style="background:rgba(255,255,255,0.08); border:1px solid rgba(212,168,75,0.35); border-radius:14px; padding:22px 28px; margin-bottom:28px; text-align:center;">
+        <div style="font-size:11px; letter-spacing:0.2em; color:#F0D080; font-weight:700; margin-bottom:12px;">假日班・課程日期</div>
+        <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">
+          <span style="background:rgba(212,168,75,0.18); border:1px solid rgba(212,168,75,0.4); color:#F0D080; font-size:13px; font-weight:600; padding:6px 16px; border-radius:20px;">7 / 11（六）第一週</span>
+          <span style="background:rgba(212,168,75,0.18); border:1px solid rgba(212,168,75,0.4); color:#F0D080; font-size:13px; font-weight:600; padding:6px 16px; border-radius:20px;">7 / 18（六）第二週</span>
+          <span style="background:rgba(212,168,75,0.18); border:1px solid rgba(212,168,75,0.4); color:#F0D080; font-size:13px; font-weight:600; padding:6px 16px; border-radius:20px;">7 / 25（六）第三週</span>
+          <span style="background:rgba(212,168,75,0.18); border:1px solid rgba(212,168,75,0.4); color:#F0D080; font-size:13px; font-weight:600; padding:6px 16px; border-radius:20px;">8 / 1（六）第四週</span>
+        </div>
+        <div style="margin-top:14px; padding:12px 20px; background:rgba(212,168,75,0.15); border-radius:10px; border:1px solid rgba(212,168,75,0.4); text-align:center;">
+          <span style="color:#F0D080; font-size:13.5px; font-weight:700; letter-spacing:0.08em;">✦ 八月持續開課中・歡迎預約下一期 ✦</span>
+        </div>
+      </div>
+      <div style="background:#F2D0C8; border-radius:20px; padding:36px 32px 30px; text-align:center; position:relative; margin-bottom:20px;">
+        <div style="position:absolute; top:-14px; left:50%; transform:translateX(-50%); background:linear-gradient(90deg,#D4A84B,#F0D080); color:#6B1230; font-size:12px; font-weight:700; padding:5px 20px; border-radius:20px; white-space:nowrap;">🌸 七月底早鳥優惠</div>
+        <div style="margin-top:8px;"><span style="font-size:22px; vertical-align:top; margin-top:14px; display:inline-block; font-weight:600; color:#8B1A3C;">NT$</span><span style="font-family:'Noto Serif TC',serif; font-size:clamp(54px,10vw,72px); font-weight:900; color:#8B1A3C; line-height:1;">4,980</span></div>
+        <p style="font-size:13px; color:#5C3848; margin:10px 0 22px;">早鳥優惠截止：<strong style="color:#8B1A3C;">2026 年 7 月 31 日</strong></p>
+        <a href="#register-form" style="display:block; background:#8B1A3C; color:white; font-family:'Noto Sans TC',sans-serif; font-size:16px; font-weight:700; letter-spacing:0.08em; padding:16px 28px; border-radius:50px; text-decoration:none; text-align:center; width:100%; box-shadow:0 6px 24px rgba(139,26,60,0.3); margin-bottom:12px; box-sizing:border-box;">立即報名，搶佔早鳥名額 →</a>
+        <a href="#specs" style="display:block; background:transparent; color:#8B1A3C; font-family:'Noto Sans TC',sans-serif; font-size:14px; font-weight:600; padding:13px 28px; border-radius:50px; border:1.5px solid #8B1A3C; text-decoration:none; text-align:center; width:100%; box-sizing:border-box;">◷ 先了解課程詳情</a>
+      </div>
+      <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:8px 20px; margin-top:24px;">
+        <span style="font-size:12.5px; color:rgba(242,208,200,0.85); display:flex; align-items:center; gap:5px;">✓ 線上線下同步</span>
+        <span style="font-size:12.5px; color:rgba(242,208,200,0.85); display:flex; align-items:center; gap:5px;">✓ 可請假補課</span>
+        <span style="font-size:12.5px; color:rgba(242,208,200,0.85); display:flex; align-items:center; gap:5px;">✓ AI 工作流模板帶走</span>
+        <span style="font-size:12.5px; color:rgba(242,208,200,0.85); display:flex; align-items:center; gap:5px;">✓ SKOOL 社群永久支援</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ FAQ ══ -->
+  <section style="background:#FDF6F4; padding:70px 24px;">
+    <div style="max-width:720px; margin:0 auto;">
+      <p style="font-size:11px; letter-spacing:0.25em; color:#D4A84B; text-align:center; margin:0 0 12px; text-transform:uppercase;">常見問題</p>
+      <h2 style="font-family:'Noto Serif TC',serif; font-size:clamp(24px,4vw,34px); font-weight:700; color:#8B1A3C; text-align:center; margin:0 0 48px; line-height:1.35;">妳可能想知道的事</h2>
+      <div style="display:flex; flex-direction:column; gap:14px;">
+        <div style="background:white; border:1px solid rgba(212,168,75,0.18); border-radius:12px; padding:20px 24px;">
+          <div style="font-family:'Noto Serif TC',serif; font-size:15px; font-weight:700; color:#8B1A3C; margin-bottom:8px; display:flex; gap:10px; align-items:flex-start;"><span style="background:#8B1A3C; color:white; font-size:11px; font-weight:700; padding:2px 7px; border-radius:4px; flex-shrink:0; margin-top:2px;">Q</span>我完全沒有 Podcast 經驗，適合嗎？</div>
+          <div style="font-size:14px; color:#5C3848; line-height:1.8; padding-left:30px;">非常適合！課程專為零基礎設計。從定位到上架全程陪跑，只需要一支手機，其餘工具和方法課程裡都會手把手教。</div>
+        </div>
+        <div style="background:white; border:1px solid rgba(212,168,75,0.18); border-radius:12px; padding:20px 24px;">
+          <div style="font-family:'Noto Serif TC',serif; font-size:15px; font-weight:700; color:#8B1A3C; margin-bottom:8px; display:flex; gap:10px; align-items:flex-start;"><span style="background:#8B1A3C; color:white; font-size:11px; font-weight:700; padding:2px 7px; border-radius:4px; flex-shrink:0; margin-top:2px;">Q</span>需要買麥克風或其他設備嗎？</div>
+          <div style="font-size:14px; color:#5C3848; line-height:1.8; padding-left:30px;">完全不需要。課程教你用手機錄出接近錄音室音質的效果，所有工具都是免費或低成本的。</div>
+        </div>
+        <div style="background:white; border:1px solid rgba(212,168,75,0.18); border-radius:12px; padding:20px 24px;">
+          <div style="font-family:'Noto Serif TC',serif; font-size:15px; font-weight:700; color:#8B1A3C; margin-bottom:8px; display:flex; gap:10px; align-items:flex-start;"><span style="background:#8B1A3C; color:white; font-size:11px; font-weight:700; padding:2px 7px; border-radius:4px; flex-shrink:0; margin-top:2px;">Q</span>如果某週臨時有事不能來，怎麼辦？</div>
+          <div style="font-size:14px; color:#5C3848; line-height:1.8; padding-left:30px;">每堂課都提供補課機制，可以用線上直播或課後錄影補課，不用擔心缺課影響學習進度。</div>
+        </div>
+        <div style="background:white; border:1px solid rgba(212,168,75,0.18); border-radius:12px; padding:20px 24px;">
+          <div style="font-family:'Noto Serif TC',serif; font-size:15px; font-weight:700; color:#8B1A3C; margin-bottom:8px; display:flex; gap:10px; align-items:flex-start;"><span style="background:#8B1A3C; color:white; font-size:11px; font-weight:700; padding:2px 7px; border-radius:4px; flex-shrink:0; margin-top:2px;">Q</span>課程結束後還有後續支援嗎？</div>
+          <div style="font-size:14px; color:#5C3848; line-height:1.8; padding-left:30px;">有！學員可加入 MissBoss SKOOL 社群，課後持續提問，芳棠老師也會在社群內持續回覆與陪伴。</div>
+        </div>
+        <div style="background:white; border:1px solid rgba(212,168,75,0.18); border-radius:12px; padding:20px 24px;">
+          <div style="font-family:'Noto Serif TC',serif; font-size:15px; font-weight:700; color:#8B1A3C; margin-bottom:8px; display:flex; gap:10px; align-items:flex-start;"><span style="background:#8B1A3C; color:white; font-size:11px; font-weight:700; padding:2px 7px; border-radius:4px; flex-shrink:0; margin-top:2px;">Q</span>四週後我真的能上架第一集嗎？</div>
+          <div style="font-size:14px; color:#5C3848; line-height:1.8; padding-left:30px;">是的，這是課程核心目標。第四週最後一堂課就是實機操作上架，妳會帶著已上架的第一集離開。</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ Footer CTA ══ -->
+  <section style="background:linear-gradient(135deg,#F2D0C8,#C8A8C0,#B8A8D0); padding:64px 24px; text-align:center;">
+    <h2 style="font-family:'Noto Serif TC',serif; font-size:clamp(22px,4vw,32px); font-weight:700; color:#8B1A3C; margin:0 0 10px;">妳的聲音，值得被世界聽見</h2>
+    <p style="font-size:15px; color:#5C3848; margin:0 0 32px; line-height:1.7;">四個週六，讓 20 年的智慧開始造血<br>早鳥名額有限，7 月 31 日截止</p>
+    <a href="#register-form" style="display:inline-block; background:#8B1A3C; color:white; font-family:'Noto Sans TC',sans-serif; font-size:15px; font-weight:700; letter-spacing:0.08em; padding:16px 48px; border-radius:50px; text-decoration:none; box-shadow:0 6px 24px rgba(139,26,60,0.3);">立即報名 NT$4,980 →</a>
+  </section>
+
+  <!-- ══ 內嵌報名區塊 ══ -->
+  <section id="register-form" style="background:linear-gradient(160deg,#8B1A3C 0%,#7B2848 50%,#5A1830 100%); padding:0; position:relative; overflow:hidden;">
+    <div style="position:absolute; inset:0; background-image:url('img_000.jpg'); background-size:cover; background-position:center; opacity:0.06; z-index:0; pointer-events:none;"></div>
+
+    <div style="position:relative; z-index:2; text-align:center; padding:56px 24px 40px; border-bottom:1px solid rgba(212,168,75,0.2);">
+      <p style="font-size:11px; letter-spacing:0.25em; color:#F0D080; margin:0 0 12px; text-transform:uppercase;">✦ 立即報名 ✦</p>
+      <h2 style="font-family:'Noto Serif TC',serif; font-size:clamp(24px,4vw,36px); font-weight:900; color:#FFFFFF; margin:0 0 10px; line-height:1.3;">AI-Podcast 四週陪跑實戰營</h2>
+      <p style="font-size:15px; color:rgba(242,208,200,0.85); margin:0 0 18px; line-height:1.65;">每週六・下午 2:00–4:00 ｜ 7/11 開課・早鳥 NT$4,980</p>
+      <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:8px;">
+        <span style="background:rgba(212,168,75,0.18); border:1px solid rgba(212,168,75,0.4); color:#F0D080; font-size:12px; font-weight:600; padding:5px 14px; border-radius:20px;">零基礎可報</span>
+        <span style="background:rgba(212,168,75,0.18); border:1px solid rgba(212,168,75,0.4); color:#F0D080; font-size:12px; font-weight:600; padding:5px 14px; border-radius:20px;">線上線下同步</span>
+        <span style="background:rgba(212,168,75,0.18); border:1px solid rgba(212,168,75,0.4); color:#F0D080; font-size:12px; font-weight:600; padding:5px 14px; border-radius:20px;">可補課請假</span>
+        <span style="background:rgba(212,168,75,0.18); border:1px solid rgba(212,168,75,0.4); color:#F0D080; font-size:12px; font-weight:600; padding:5px 14px; border-radius:20px;">✦ 八月持續開課中</span>
+      </div>
+    </div>
+
+    <div style="position:relative; z-index:2; max-width:1040px; margin:0 auto; padding:40px 24px 64px; display:flex; flex-wrap:wrap; gap:40px; align-items:flex-start;">
+
+      <div style="flex:1 1 460px; min-width:280px; display:flex; flex-direction:column; gap:20px;">
+
+        <div style="background:rgba(255,255,255,0.08); border:1px solid rgba(212,168,75,0.3); border-radius:16px; padding:20px 22px; display:flex; gap:16px; align-items:center;">
+          <img src="img_001.jpg" alt="芳棠 JEAN" style="width:68px; height:68px; border-radius:50%; object-fit:cover; object-position:center top; border:2px solid rgba(212,168,75,0.5); flex-shrink:0;">
+          <div>
+            <div style="font-family:'Noto Serif TC',serif; font-size:17px; font-weight:700; color:#FFFFFF; margin-bottom:3px;">芳棠 JEAN</div>
+            <div style="font-size:12px; color:rgba(242,208,200,0.8); margin-bottom:8px; font-style:italic;">《芳齡在線》主持人・MissBoss 創辦人</div>
+            <div style="display:flex; flex-wrap:wrap; gap:4px;">
+              <span style="background:rgba(212,168,75,0.18); color:#F0D080; font-size:10.5px; font-weight:600; padding:3px 10px; border-radius:12px;">Podcast 150+ 集</span>
+              <span style="background:rgba(212,168,75,0.18); color:#F0D080; font-size:10.5px; font-weight:600; padding:3px 10px; border-radius:12px;">兩岸媒體 10+ 年</span>
+            </div>
+          </div>
+        </div>
+
+        <div style="background:rgba(255,255,255,0.06); border:1px solid rgba(212,168,75,0.25); border-radius:14px; padding:20px 22px;">
+          <div style="font-size:11px; letter-spacing:0.18em; color:#F0D080; font-weight:700; margin-bottom:14px;">📅 假日班課程日期</div>
+          <div style="display:flex; flex-direction:column; gap:10px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; padding-bottom:10px; border-bottom:1px solid rgba(212,168,75,0.12);"><span style="font-size:14px; color:rgba(242,208,200,0.9);">第一週</span><span style="font-size:14px; font-weight:700; color:#FFFFFF;">7 / 11（六）</span><span style="font-size:12px; color:#F0D080;">聲音定位</span></div>
+            <div style="display:flex; justify-content:space-between; align-items:center; padding-bottom:10px; border-bottom:1px solid rgba(212,168,75,0.12);"><span style="font-size:14px; color:rgba(242,208,200,0.9);">第二週</span><span style="font-size:14px; font-weight:700; color:#FFFFFF;">7 / 18（六）</span><span style="font-size:12px; color:#F0D080;">AI 腳本</span></div>
+            <div style="display:flex; justify-content:space-between; align-items:center; padding-bottom:10px; border-bottom:1px solid rgba(212,168,75,0.12);"><span style="font-size:14px; color:rgba(242,208,200,0.9);">第三週</span><span style="font-size:14px; font-weight:700; color:#FFFFFF;">7 / 25（六）</span><span style="font-size:12px; color:#F0D080;">錄製剪輯</span></div>
+            <div style="display:flex; justify-content:space-between; align-items:center;"><span style="font-size:14px; color:rgba(242,208,200,0.9);">第四週</span><span style="font-size:14px; font-weight:700; color:#FFFFFF;">8 / 1（六）</span><span style="font-size:12px; color:#F0D080;">上架變現</span></div>
+          </div>
+          <div style="margin-top:14px; padding:10px 14px; background:rgba(212,168,75,0.12); border-radius:8px; text-align:center;"><span style="color:#F0D080; font-size:12.5px; font-weight:700;">✦ 八月持續開課中・歡迎預約下一期 ✦</span></div>
+        </div>
+
+        <div style="background:rgba(255,255,255,0.06); border:1px solid rgba(212,168,75,0.25); border-radius:14px; padding:20px 22px;">
+          <div style="font-size:11px; letter-spacing:0.18em; color:#F0D080; font-weight:700; margin-bottom:14px;">💳 付款資訊</div>
+          <div style="display:flex; align-items:baseline; gap:6px; margin-bottom:6px;"><span style="font-size:13px; color:rgba(242,208,200,0.75);">七月底早鳥優惠</span><span style="font-family:'Noto Serif TC',serif; font-size:36px; font-weight:900; color:#F0D080; line-height:1;">NT$4,980</span></div>
+          <div style="font-size:12px; color:rgba(242,208,200,0.65); margin-bottom:14px;">早鳥截止日：<strong style="color:#F0D080;">2026 年 7 月 31 日</strong></div>
+          <div style="font-size:12px; font-weight:700; color:rgba(242,208,200,0.8); margin-bottom:8px;">付款方式</div>
+          <div style="display:flex; flex-direction:column; gap:5px;">
+            <div style="font-size:12.5px; color:rgba(242,208,200,0.75); display:flex; gap:6px; align-items:center;"><span style="color:#F0D080;">▸</span>銀行轉帳（確認後提供帳號）</div>
+            <div style="font-size:12.5px; color:rgba(242,208,200,0.75); display:flex; gap:6px; align-items:center;"><span style="color:#F0D080;">▸</span>LINE Pay / 街口支付</div>
+            <div style="font-size:12.5px; color:rgba(242,208,200,0.75); display:flex; gap:6px; align-items:center;"><span style="color:#F0D080;">▸</span>信用卡（透過綠界金流）</div>
+          </div>
+          <div style="margin-top:14px; font-size:11.5px; color:rgba(242,208,200,0.55); line-height:1.65;">✦ 提交報名後 24 小時內確認並提供付款資訊<br>✦ 付款完成即完成報名，席位有限請儘早報名</div>
+        </div>
+
+        <div style="background:rgba(255,255,255,0.06); border:1px solid rgba(212,168,75,0.25); border-radius:14px; padding:18px 22px; display:flex; gap:12px; align-items:flex-start;">
+          <span style="font-size:20px; flex-shrink:0; margin-top:2px;">📍</span>
+          <div>
+            <div style="font-size:13.5px; font-weight:700; color:#FFFFFF; margin-bottom:4px;">上課地點</div>
+            <div style="font-size:13px; color:rgba(242,208,200,0.85); line-height:1.65;">台北市許昌街 42 號 8 樓・萊客商務中心<br><span style="font-size:11.5px; color:#F0D080;">（台北車站步行 3 分鐘）</span></div>
+          </div>
+        </div>
+
+      </div>
+
+      <div style="flex:1 1 400px; min-width:280px;">
+        <div style="background:#FFFFFF; border-radius:20px; padding:32px 28px; box-shadow:0 12px 48px rgba(0,0,0,0.25); box-sizing:border-box;">
+          <h3 style="font-family:'Noto Serif TC',serif; font-size:21px; font-weight:700; color:#8B1A3C; text-align:center; margin:0 0 6px;">🎙️ 立即報名</h3>
+          <p style="font-size:13px; color:#5C3848; text-align:center; margin:0 0 20px; line-height:1.6;">填寫完成後，資料將直接存入我們的系統<br>24 小時內以 Email 確認並提供付款方式</p>
+          <div style="width:50px; height:2px; background:linear-gradient(90deg,transparent,#D4A84B,transparent); margin:0 auto 22px;"></div>
+          <iframe src="https://forms.gle/1AfAnJWCpkc1oHSU9" width="100%" height="1100" frameborder="0" marginheight="0" marginwidth="0" style="border-radius:16px; display:block; border:0;">載入中…</iframe>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer style="background:#3A0E1E; padding:28px 24px; text-align:center;">
+    <p style="color:rgba(242,208,200,0.7); font-size:12.5px; line-height:1.8; margin:0;">
+      MissBoss｜芳旅蜜媤數位行銷有限公司<br>
+      missboss.service@gmail.com｜02-2311-9333<br>
+      台北市中正區許昌街 42 號 8 樓<br>
+      <a href="https://www.miss-boss.com" style="color:#D4A84B; text-decoration:none;">www.miss-boss.com</a>
+    </p>
+  </footer>
+
+</div>
+
+</x-dc>
+</body>
+</html>
